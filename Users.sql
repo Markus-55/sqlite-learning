@@ -1,0 +1,11 @@
+-- SQLite
+CREATE TABLE Users (
+    UserID INTEGER PRIMARY KEY,
+    ProducerID INTEGER,
+    Company TEXT NOT NULL,
+    Role TEXT NOT NULL,
+    FullName TEXT NOT NULL,
+    Email TEXT NOT NULL,
+    Password TEXT NOT NULL,
+    CreatedAt DATETIME DEFAULT CURRENT_TIMESTAMP
+);
